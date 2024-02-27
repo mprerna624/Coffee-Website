@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <nav>
+            <img src="https://raw.githubusercontent.com/NAMAN547/coffee-website/main/images/logo.png" alt="logo" class="logo">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#products" class="nav-link">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#review" class="nav-link">Review</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#blogs" class="nav-link">Blogs</a>
+                </li>
+            </ul>
+
+            <ul class="icon-list">
+                <li><i class="fa-solid fa-magnifying-glass search-btn"></i></li>
+                <li><i class="fa-solid fa-cart-shopping"></i></li>
+                <li><i class="fa-solid fa-bars"></i></li>
+            </ul>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Search" id="search">
+                <label for="search" class="fa-solid fa-magnifying-glass"></label>
+            </div>
+
+            <div class="shopping-cart">
+                <div class="cart-item">
+                    <img src="https://github.com/NAMAN547/coffee-website/blob/main/images/cart-item-1.png?raw=true" alt="">
+                    <div class="cart-item-content">
+                        <h3>Cart Item 01</h3>
+                        <p>$15.99/-</p>
+                    </div>
+                    <div class="close-btn">+</div>
+                </div>
+
+                <div class="cart-item">
+                    <img src="https://github.com/NAMAN547/coffee-website/blob/main/images/cart-item-2.png?raw=true" alt="">
+                    <div class="cart-item-content">
+                        <h3>Cart Item 02</h3>
+                        <p>$15.99/-</p>
+                    </div>
+                    <div class="close-btn">+</div>
+                </div>
+
+                <div class="cart-item">
+                    <img src="https://github.com/NAMAN547/coffee-website/blob/main/images/cart-item-3.png?raw=true" alt="">
+                    <div class="cart-item-content">
+                        <h3>Cart Item 03</h3>
+                        <p>$15.99/-</p>
+                    </div>
+                    <div class="close-btn">+</div>
+                </div>
+
+                <div class="cart-item">
+                    <img src="https://raw.githubusercontent.com/NAMAN547/coffee-website/main/images/cart-item-4.png" alt="">
+                    <div class="cart-item-content">
+                        <h3>Cart Item 04</h3>
+                        <p>$15.99/-</p>
+                    </div>
+                    <div class="close-btn">+</div>
+                </div>
+
+                <button>Checkout Now</button>
+            </div>
+
+            <div class="sidebar-menu">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#products">Products</a>
+                <a href="#review">Review</a>
+                <a href="#contact">Contact</a>
+                <a href="#blogs">Blogs</a>
+            </div>
+
+        </nav>
+    
+
+    <main>
+        <section class="hero-section" id="home">
+            <div class="hero-content">
+                <h1>Fresh Coffee in the Morning</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem vero voluptatibus atque ducimus, veniam dolorem</p>
+                <button>Get Yours Now</button>
+            </div>
+        </section>
+
+        <section class="about-section" id="about">
+            <h1><span>About </span>Us</h1>
+            <div class="about-container">
+                <img src="https://raw.githubusercontent.com/NAMAN547/coffee-website/main/images/about-img.jpeg" alt="">
+                <div class="about-content">
+                    <h1>What Makes Our Coffee Special?</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi accusantium debitis distinctio officiis et? Eaque ab illum repellat corrupti quas esse. Sint assumenda eos veniam. Voluptas corrupti similique enim assumenda!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto repellat voluptatibus voluptatem nihil repudiandae, labore sed distinctio quisquam optio deserunt?</p>
+                    <button>Learn More</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu-section" id="menu">
+            <h1>Our<span> Menu</span></h1>
+            <div class="menu-container">
+                <div class="menu-item">
+                    <img src="https://raw.githubusercontent.com/NAMAN547/coffee-website/main/images/menu-1.png" alt="menu-item-img">
+                    <h3>Tasty And Healthy</h3>
+                    <p>$15.99<span>20.99</span></p>
+                    <button>Add To Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="https://raw.githubusercontent.com/NAMAN547/coffee-website/main/images/menu-2.png" alt="menu-item-img">
+                    <h3>Tasty And Healthy</h3>
+                    <p>$15.99<span>20.99</span></p>
+                    <button>Add To Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="https://github.com/NAMAN547/coffee-website/blob/main/images/menu-3.png?raw=true" alt="menu-item-img">
+                    <h3>Tasty And Healthy</h3>
+                    <p>$15.99<span>20.99</span></p>
+                    <button>Add To Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="https://github.com/NAMAN547/coffee-website/blob/main/images/menu-4.png?raw=true" alt="menu-item-img">
+                    <h3>Tasty And Healthy</h3>
+                    <p>$15.99<span>20.99</span></p>
+                    <button>Add To Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="https://github.com/NAMAN547/coffee-website/blob/main/images/menu-5.png?raw=true" alt="menu-item-img">
+                    <h3>Tasty And Healthy</h3>
+                    <p>$15.99<span>20.99</span></p>
+                    <button>Add To Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="https://github.com/NAMAN547/coffee-website/blob/main/images/menu-6.png?raw=true" alt="menu-item-img">
+                    <h3>Tasty And Healthy</h3>
+                    <p>$15.99<span>20.99 </span></p>
+                    <button>Add To Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="product-section" id="products">
+            <h1>Our<span> Products</span></h1>
+            <div class="product-container">
+                <div class="product-item">
+                    <div class="product-icon">
+                        <a href="#" class="fa-solid fa-cart-shopping"></a>
+                        <a href="#" class="fa-solid fa-heart"></a>
+                        <a href="#" class="fa-solid fa-eye"></a>
+                    </div>
+                    <img src="https://github.com/NAMAN547/coffee-website/blob/main/images/product-1.png?raw=true" alt="product-img">
+                    <h3>Fresh Coffee</h3>
+                    <div class="rating">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star-half-stroke"></i></span>
+                    </div>
+                    <p>$15.99<span>$20.99</span></p>
+                </div>
+                <div class="product-item">
+                    <div class="product-icon">
+                        <a href="#" class="fa-solid fa-cart-shopping"></a>
+                        <a href="#" class="fa-solid fa-heart"></a>
+                        <a href="#" class="fa-solid fa-eye"></a>
+                    </div>
+                    <img src="https://github.com/NAMAN547/coffee-website/blob/main/images/product-2.png?raw=true" alt="product-img">
+                    <h3>Fresh Coffee</h3>
+                    <div class="rating">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star-half-stroke"></i></span>
+                    </div>
+                    <p>$15.99<span>$20.99</span></p>
+                </div>
+                <div class="product-item">
+                    <div class="product-icon">
+                        <a href="#" class="fa-solid fa-cart-shopping"></a>
+                        <a href="#" class="fa-solid fa-heart"></a>
+                        <a href="#" class="fa-solid fa-eye"></a>
+                    </div>
+                    <img src="https://github.com/NAMAN547/coffee-website/blob/main/images/product-3.png?raw=true" alt="product-img">
+                    <h3>Fresh Coffee</h3>
+                    <div class="rating">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star-half-stroke"></i></span>
+                    </div>
+                    <p>$15.99<span>$20.99</span></p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="reviews-section" id="review">
+            <h1>Customer's<span> Review</span></h1>
+            <div class="review-container">
+                <div class="review">
+                    <img src="https://github.com/NAMAN547/coffee-website/blob/main/images/quote-img.png?raw=true" alt="qoutation-marks">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nulla necessitatibus fugit libero, dolore impedit, optio quae odit quas, perferendis recusandae qui commodi hic? Iure eveniet reiciendis quos itaque labore.</p>
+                    <img src="https://github.com/NAMAN547/coffee-website/blob/main/images/pic-1.png?raw=true" alt="people">
+                    <h3>John Doe</h3>
+                    <div class="rating">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star-half-stroke"></i></span>
+                    </div>
+                </div>
+                <div class="review">
+                    <img src="https://github.com/NAMAN547/coffee-website/blob/main/images/quote-img.png?raw=true" alt="qoutation-marks">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae aut quas mollitia, reprehenderit vel eum itaque exercitationem quaerat, quibusdam maiores ex dolore. Quos minus aperiam animi qui a velit autem.</p>
+                    <img src="https://github.com/NAMAN547/coffee-website/blob/main/images/pic-2.png?raw=true" alt="people">
+                    <h3>John Doe</h3>
+                    <div class="rating">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star-half-stroke"></i></span>
+                    </div>
+                </div>
+                <div class="review">
+                    <img src="https://github.com/NAMAN547/coffee-website/blob/main/images/quote-img.png?raw=true" alt="qoutation-marks">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit deserunt at a iure molestiae iste molestias officiis, labore inventore, repellat obcaecati necessitatibus itaque qui neque porro tempore quos, repudiandae ea!</p>
+                    <img src="https://github.com/NAMAN547/coffee-website/blob/main/images/pic-3.png?raw=true" alt="people">
+                    <h3>John Doe</h3>
+                    <div class="rating">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star-half-stroke"></i></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-us-section" id="contact">
+            <h1><span>Contact </span>Us</h1>
+            <div class="contact-us-container">
+                <!-- <img src="https://raw.githubusercontent.com/NAMAN547/coffee-website/main/images/about-img.jpeg" alt="map" width="50%"> -->
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1629452077891!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+
+                <div class="contact-us-form">
+                    <h1>Get in Touch</h1>
+                    <form action="#">
+                        <div class="input-div">
+                            <span><i class="fa-solid fa-user"></i></span>
+                            <input type="text" placeholder="Name" name="name
+                            ">
+                        </div>
+                        <div class="input-div">
+                            <span><i class="fa-solid fa-envelope"></i></span>
+                            <input type="email" placeholder="Email" name="email-id">
+                        </div>
+                        <div class="input-div">
+                            <span><i class="fa-solid fa-phone"></i></span>
+                            <input type="tel" placeholder="Number" name="phone-no">
+                        </div>
+                        <button>Contact Now</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="blogs-section" id="blogs">
+            <h1>Our<span> Blogs</span></h1>
+            <div class="blogs-container">
+                <div class="blog">
+                    <div class="blog-img"><img src="https://github.com/NAMAN547/coffee-website/blob/main/images/blog-1.jpeg?raw=true" alt="blog-img"></div>
+                    <div class="blog-content">
+                        <h2>Tasty And Refreshing Coffee</h2>
+                        <h3>By Admin / 08th May, 2023</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, debitis!</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+                <div class="blog">
+                    <div class="blog-img"><img src="https://github.com/NAMAN547/coffee-website/blob/main/images/blog-2.jpeg?raw=true" alt="blog-img"></div>
+                    <div class="blog-content">
+                        <h2>Tasty And Refreshing Coffee</h2>
+                        <h3>By Admin / 08th May, 2023</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, odio.</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+                <div class="blog">
+                    <div class="blog-img"><img src="https://github.com/NAMAN547/coffee-website/blob/main/images/blog-3.jpeg?raw=true" alt="blog-img"></div>
+                    <div class="blog-content">
+                        <h2>Tasty And Refreshing Coffee</h2>
+                        <h3>By Admin / 08th May, 2023</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, natus.</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-icons">
+            <a href="#" class="fa-brands fa-facebook-f"></a>
+            <a href="#" class="fa-brands fa-twitter"></a>
+            <a href="#" class="fa-brands fa-instagram"></a>
+            <a href="#" class="fa-brands fa-linkedin"></a>
+            <a href="#" class="fa-brands fa-pinterest"></a>
+        </div>
+        <div class="section-links-div">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#review">Review</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
